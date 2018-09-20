@@ -3,7 +3,8 @@ call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'rakr/vim-one'
+" Doesn't work in Docker
+"Plug 'rakr/vim-one'
 
 call plug#end()
 
