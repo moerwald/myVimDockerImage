@@ -63,7 +63,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-colorscheme one
+colorscheme desert
 set background=dark
 
 " NERDTree bindings
