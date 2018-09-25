@@ -4,6 +4,7 @@ RUN apt-get update -qq \
  && apt-get install -qqy vim \
  && apt-get install -qqy git \
  && apt-get install -qqy dos2unix\
+ && apt-get install -qqy libuv1.dev\
  && apt-get install -qqy curl 
 
 COPY _vimrc /root/.vimrc
