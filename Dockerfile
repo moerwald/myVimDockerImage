@@ -6,7 +6,7 @@ RUN apt-get update -qq \
  && apt-get install -qqy dos2unix\
  && apt-get install -qqy libuv1.dev\
  && apt-get install -qqy curl \
- && apt-get install subversion
+ && apt-get install -qqy subversion
 
 COPY _vimrc /root/.vimrc
 
