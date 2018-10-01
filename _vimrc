@@ -7,6 +7,7 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-dispatch'
 Plug 'Shougo/vimproc.vim'
+Plug 'dimasg/vim-mark'
 " Doesn't work in Docker
 "Plug 'rakr/vim-one'
 
