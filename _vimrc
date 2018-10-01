@@ -8,6 +8,7 @@ Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-dispatch'
 Plug 'Shougo/vimproc.vim'
 Plug 'dimasg/vim-mark'
+Plug 'pprovost/vim-ps1'
 " Doesn't work in Docker
 "Plug 'rakr/vim-one'
 
