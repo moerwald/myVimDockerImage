@@ -14,7 +14,7 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubuserconte
 
 RUN cd /tmp \
  && git clone https://github.com/powerline/fonts.git \
- && cd /tmp/fontd \
+ && cd /tmp/fonts \
  && ./install.sh
 
 RUN dos2unix ~/.vimrc
