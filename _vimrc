@@ -74,6 +74,11 @@ map <C-l> <C-w>l
 colorscheme desert
 set background=dark
 
+" Airline settings
+let g:airline_powerline_fonts = 1
+set t_Co=256
+
+
 " NERDTree bindings
 map <C-n> :NERDTreeToggle<cr>
 
