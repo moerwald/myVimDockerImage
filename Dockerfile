@@ -13,7 +13,7 @@ COPY _vimrc /root/.vimrc
 RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 RUN cd /tmp \
- && https://github.com/powerline/fonts.git \
+ && git clone https://github.com/powerline/fonts.git \
  && cd fontd \
  && ./install.sh
 
