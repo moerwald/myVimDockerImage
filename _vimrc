@@ -40,7 +40,9 @@ set scrolloff=7
 
 set wildmenu
 
+" Folding
 set foldcolumn=1
+set foldmethod=syntax
                 
 " Deactivate beeps -> http://vim.wikia.com/wiki/Disable_beeping
 set noeb vb t_vb=                
